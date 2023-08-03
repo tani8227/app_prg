@@ -30,7 +30,7 @@ function getlist(e) {
                console.log(a)
                if(a==null)
                {
-                result.innerHTML=`<h1 >no match result found</h1`;  
+                result.innerHTML=`<h1 >no match found</h1`;  
                 result.style.color="white";
                 res.style.backgroundColor="transparent";
             
