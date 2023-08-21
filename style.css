@@ -10,6 +10,7 @@ body
  display: flex;
  justify-content: center;
  align-items: center;
+ 
 
 }
 .heading h1
@@ -45,12 +46,32 @@ button
 #show-itms
 {
     width: 100%;
-    height:100%;
+    /* height:100%; */
     margin-top: 20px;
     padding: 20px;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center;     */
+}
+#show-itms a
+{
+  text-decoration: none;
+}
+#result
+{
+    width: 100%;
+    height:auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
 
-       
+}
+
+#likedlist
+{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
 }
