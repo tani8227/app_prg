@@ -1,7 +1,7 @@
 let detailsdisplay=document.getElementById('likedlist');
 let img=localStorage.getItem('imgtad');
 
-// let parimg=JSON.parse(img);
+
 console.log(img);
 let title=localStorage.getItem('imgtitle');
 

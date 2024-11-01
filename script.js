@@ -15,7 +15,9 @@ function getlist(e) {
   // console.log(input_data);
   // console.log(term);
 
-  // if (term) {      
+  // if (term) {   
+  
+  // function for fetching the data from api 
   const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${term}`;
 
   fetch(url)
@@ -58,7 +60,7 @@ function getlist(e) {
   result.innerHTML = "";
 
 }
-
+// function for seaching the each leter 
 input_data.addEventListener('keyup', function (event) {
   let key = input_data.value;
 
@@ -101,8 +103,8 @@ input_data.addEventListener('keyup', function (event) {
 });
 
 
-
-let c=0;
+// function to get the 
+let c=0; 
  document.addEventListener('click',(event)=>{
      if(event.target.classList.contains('card'))
      {
